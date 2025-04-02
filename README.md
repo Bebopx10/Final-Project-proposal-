@@ -1,1 +1,2 @@
-# Final-Project-proposal-
+# Final-Project-proposal- 
+Author: Justin Hobbs 
