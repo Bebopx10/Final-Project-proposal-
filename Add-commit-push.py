@@ -1,6 +1,6 @@
 import subprocess
 
-Print{"Add Commit Push"}
+Print("Add Commit Push")
 
 
 # Print the output
