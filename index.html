@@ -1,21 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
 <html>
-  <head>
-    <title>Class-project-Proposal</title>
-</head>
-<body>
-    <p>This is an example paragraph</p>
-    <hs></hs>
+<head>
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Times new Roman, sans-serif;
+            background-color: #f4f4f4;
+            line-height: 1.6;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .main-info {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+        }
+        .main-info h1 {
+            margin: 0;
+        }
+        .hobbies, .lewis, .course, .job, .intro, .fun-fact {
+            background: #e7e7e7;
+            padding: 15px;
+            margin-bottom: 10px;
+        }
 
-    <ol type="1">
-        <li><Name:Nexora</li>
-        <li>Team Member: Justin Hobbs</li>
-        <li>Application overview: Generic/customized Timer</li>
-        <li>Technology Overview: Web application using CSS, HTML, python, and hosted on Github pages</li>
-        Proposal last updated: 4/21/25
-        </ol>
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        .dark-mode {
+    background-color: #333;
+    color: #f4f4f4;
+}
 
-</body>
-</html>
+.dark-mode .main-info {
+    color: #f4f4f4;
+}
 
+<button class="toggle-btn" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+function toggleDarkMode() {
+    document.body.classList.toggle('dark-mode');
+}
